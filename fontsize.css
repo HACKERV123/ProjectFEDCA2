@@ -1,0 +1,13 @@
+/* Responsive layout - when the screen is less than 528px wide, 
+make the three columns stack on top of each other instead of next to each other */
+@media only screen and (max-width: 700px)  {
+    h1 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 700px)  {
+    p, h5 {
+        font-size: 12px;
+    }
+}
