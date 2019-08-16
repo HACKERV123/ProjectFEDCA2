@@ -12,6 +12,7 @@
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous"/>
    <link rel="stylesheet" href="background.css"/>
    <link rel="stylesheet" href="fontsize.css"/>
+   <link rel="stylesheet" href="modal.css"/>
 </head>  
 <body>
         
@@ -61,24 +62,27 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="panel-body">
-                                <table class="table table-hover table-striped table-bordered Responsive">
-                                    <thead>
+                                <table class="table table-hover table-bordered table-dark">
+                                   
                                         <tr>
-                                            <th><img src="Chocolate-Stick-candy.jpg" alt="chocolate" class="img-fluid" alt="Responsive image"/>
+                                            <th><img  src="Chocolate-Stick-candy.jpg" alt="Chocolates-Candy" class="img-fluid" alt="Responsive image"/>
+                                            
                                                 </br><h5>Chocolates-Candy</h5><p>Enjoy the taste of chocolate candy</p>
                                                 <p>&nbsp;</p>
                                                 <p>Price:<b>$5.00(Two per Serving)</b></p>
                                                 <br>
-                                                <button type="button" class="btn btn-primary" id="chocolate1" onclick=" window.open('Cartout_bootstrap.html', '_blank'); return false">Buy</button></th>
+                        
+                                                <a href="Cartout_bootstrap.html"><button type="button" class="btn btn-primary" id="chocolate1">Buy</button></a></th>
                                             
-                                                <th><img src="chocolates-sweets.jpg" alt="chocolate" class="img-fluid" alt="Responsive image"/>
+                                                <th><img src="chocolates-sweets.jpg" alt="Chocolates-Sweets" class="img-fluid" alt="Responsive image"/>
+        
                                                 </br><h5>Chocolates-Sweets</h5><p>Enjoy the favour of sweets</p>
                                                 <p>&nbsp;</p>
                                                 <p>Price:<b>$3.00(Two per Serving)</b></p>
                                                 <br>
-                                                <button type="button" class="btn btn-primary" onclick="alert('Hello is still fixing!')">Buy</button></th>
+                                                <a href="Cartout_bootstrap.html"><button type="button" class="btn btn-primary" id="chocolate2">Buy</button></a></th>
                                         </tr>
-                                    </thead>
+                                
                                     <tr>
                                         <th><img src="Box of chocolate.jpg" alt="chocolate" class="img-fluid" alt="Responsive image"/>
                                             </br><h5>Box of chocolate</h5><p>Enjoy our variety</p>
@@ -86,14 +90,14 @@
                                             <p>*Note we dont give flower or cards</p>
                                             <p>Price:<b>$25.00</b></p>
                                             <br>
-                                            <button type="button" class="btn btn-primary" onclick="alert('Hello is still fixing!')">Buy</button></th>
+                                            <a href="Cartout_bootstrap.html"><button type="button" class="btn btn-primary" id="chocolate3">Buy</button></a></th>
                                             <th><img src="Glass of candy.jpg" alt="chocolate" class="img-fluid" alt="Responsive image"/>
                                                 </br><h5>Mint M&M</h5><p>Enjoy our M&M Product fresh make</p>
                                                 <p>&nbsp;</p>
                                                 <p>*Come in box</p>
                                                 <p>Price:<b>$7.00</b></p>
                                                 <br>
-                                                <button type="button" class="btn btn-primary" onclick="alert('Hello is still fixing!')">Buy</button></th>
+                                                <a href="Cartout_bootstrap.html"><button type="button" class="btn btn-primary" id="chocolate4">Buy</button></a></th>
                                     </tr>
                                 </table>
                             </div>
@@ -199,9 +203,6 @@
     </div>
   </div>
 </div>
-<!----<div style="height: 700px"></div>-->
-
-
   </br>
   <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
     <div class="container text-center">
@@ -212,5 +213,6 @@
   </div>
 </div>
 </div>
+<script src="modal.js"></script>
 </body>
 </html>
