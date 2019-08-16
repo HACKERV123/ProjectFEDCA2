@@ -68,7 +68,7 @@
           
             <fieldset>
             <legend>Personal information:</legend>
-            <form class="needs-validation" novalidate  name="SubmitForm" id="SubmitForm" action="feedbacksubmit_bootstrap.html" method="post"> 
+            <form class="needs-validation" novalidate  name="SubmitForm" id="SubmitForm" action="feedbacksubmit_bootstrap.html" method="GET"> 
                 <div class="form-row">
                   <div class="col-md-4 mb-4">
                     <label for="validationCustom01">First name:</label>
@@ -86,7 +86,7 @@
                   </div>
                   <div class="col-md-8 mb-4">
                       <label for="validationCustom03">Email:</label>
-                      <input type="email" class="form-control" id="validationCustom03" placeholder="......@......"  required>
+                      <input type="email" class="form-control" id="validationCustom03" placeholder="example@gmail.com"  required>
                       <div class="invalid-feedback">
                           Please input valid email ID!
                       </div>
@@ -378,8 +378,8 @@
         </div>
 
           <div class="col-sm-9"> 
-            <label for="Textarea1">Any Feedback:</label>
-            <textarea class="form-control" id="Textarea1" rows="5" placeholder="please write something in it" ></textarea>
+            <label for="Textarea1">Any Feedback:(optional)</label>
+            <textarea class="form-control" id="Textarea1" rows="5" placeholder="comment.." ></textarea>
           </div> 
        
           <div class="col-sm-4">
